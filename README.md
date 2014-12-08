@@ -1,4 +1,4 @@
-vimrc
+vim.d
 =====
 
 My Vim settings
