@@ -165,6 +165,7 @@ if has("autocmd")
         autocmd FileType sql setlocal tw=80 et fo-=t
         autocmd FileType rst setlocal tw=70 sw=2 sts=2 et fo+=t
         autocmd FileType tcl setlocal tw=80 sw=4 sts=4 et fo-=t
+        autocmd FileType markdown setlocal tw=80 sw=2 sts=2 et fo+=t
     augroup END
 
     augroup OnQuit
