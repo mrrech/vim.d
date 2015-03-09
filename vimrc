@@ -116,7 +116,7 @@ set foldlevelstart=1    " Folding root level open
 
 " Invisible characters settings
 set listchars=tab:>-,eol:¬,trail:~
-nnoremap <silent> <Leader>iv :set list! list?<CR>
+nnoremap <silent> <Leader>hi :set list! list?<CR>
 
 " Set complete option
 set complete-=i " DO NOT scan included files when searching for completion
@@ -202,6 +202,11 @@ endif
 " Space is a better leader
 map <Space> <Leader>
 
+" Remap CTRL-I and CTRL-O
+" (since CTRL-I is <Tab> and the latter is taken by SuperTab plugin)
+nnoremap <Leader>i <C-I>
+nnoremap <Leader>o <C-O>
+
 " Make mapping timeout a little bit longer
 set timeout timeoutlen=1100
 
@@ -226,8 +231,8 @@ nnoremap <C-p><C-p> :set invpaste paste?<CR>
 set pastetoggle=<C-p><C-p>
 
 " Create Blank Newlines and stay in Normal mode
-nnoremap <silent> <Leader>o m`o<Esc>``
-nnoremap <silent> <Leader>O m`O<Esc>``
+nnoremap <silent> <Leader>la m`o<Esc>``
+nnoremap <silent> <Leader>lA m`O<Esc>``
 
 " Map window management shortcut
 nnoremap <silent> <Leader>wh <C-w>h
