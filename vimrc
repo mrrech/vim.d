@@ -323,11 +323,8 @@ let g:rainbow_active = 1
 "let g:rainbow_ctermfgs = [196, 'blue', 'magenta', 'cyan', 'green'] "parens custom colors
 
 " Python Enhanced Syntax Highlighting
-let python_highlight_builtin_objs = 1
-let python_highlight_builtin_funcs = 1
-let python_highlight_exceptions = 1
-let python_highlight_string_formatting = 1
-let python_slow_sync = 1
+let python_version_2 = 1
+let python_highlight_all = 1
 
 " Syntastic settings
 let g:syntastic_check_on_open=1
