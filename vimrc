@@ -15,27 +15,28 @@ Plugin 'gmarik/Vundle.vim'
 
 " Keep Plugin commands between vundle#begin/end.
 
-Plugin 'vim-scripts/IndexedSearch'     " Display #/N matches when searching
-Plugin 'scrooloose/nerdtree'           " Directory tree
-Plugin 'mrrech/ag.vim'                 " SilverSearcher (a.k.a faster grep)
-Plugin 'jlanzarotta/bufexplorer'       " BufferExplorer
-Plugin 'chrisbra/csv.vim'              " CSV plugin
-Plugin 'kien/ctrlp.vim'                " Ctrl-p fuzzy matcher
-Plugin 'rizzatti/dash.vim'             " Dash - Vim integration
-Plugin 'jmcantrell/vim-diffchanges'    " Shows changes since the last save
-Plugin 'pangloss/vim-javascript'       " Better Javascript syntax and indent
-Plugin 'nanotech/jellybeans.vim'       " Jellybeans color scheme
-Plugin 'jpythonfold.vim'               " Better folding for Python
-Plugin 'scrooloose/nerdcommenter'      " Make comment/uncomment easy
-Plugin 'indentpython.vim'              " Better Python indentation
-Plugin 'hdima/python-syntax'           " Better Python syntax highlighting
-Plugin 'luochen1990/rainbow'           " Rainbow parenthesis
-Plugin 'msanders/snipmate.vim'         " Snippets
-Plugin 'ervandew/supertab'             " SuperTab
-Plugin 'scrooloose/syntastic'          " Syntax checking
-Plugin 'tpope/vim-capslock'            " Capslock without capslock key
-Plugin 'milkypostman/vim-togglelist'   " Open/close quicklist/locallist
-Plugin 'tpope/vim-surround'            " Make changing surround chars easier
+Plugin 'vim-scripts/IndexedSearch'                    " Display #/N matches when searching
+Plugin 'scrooloose/nerdtree'                          " Directory tree
+Plugin 'mrrech/ag.vim'                                " SilverSearcher (a.k.a faster grep)
+Plugin 'jlanzarotta/bufexplorer'                      " BufferExplorer
+Plugin 'chrisbra/csv.vim'                             " CSV plugin
+Plugin 'kien/ctrlp.vim'                               " Ctrl-p fuzzy matcher
+Plugin 'rizzatti/dash.vim'                            " Dash - Vim integration
+Plugin 'jmcantrell/vim-diffchanges'                   " Shows changes since the last save
+Plugin 'pangloss/vim-javascript'                      " Better Javascript syntax and indent
+Plugin 'nanotech/jellybeans.vim'                      " Jellybeans color scheme
+Plugin 'jpythonfold.vim'                              " Better folding for Python
+Plugin 'scrooloose/nerdcommenter'                     " Make comment/uncomment easy
+Plugin 'indentpython.vim'                             " Better Python indentation
+Plugin 'hdima/python-syntax'                          " Better Python syntax highlighting
+Plugin 'luochen1990/rainbow'                          " Rainbow parenthesis
+Plugin 'msanders/snipmate.vim'                        " Snippets
+Plugin 'ervandew/supertab'                            " SuperTab
+Plugin 'scrooloose/syntastic'                         " Syntax checking
+Plugin 'tpope/vim-capslock'                           " Capslock without capslock key
+Plugin 'milkypostman/vim-togglelist'                  " Open/close quicklist/locallist
+Plugin 'tpope/vim-surround'                           " Make changing surround chars easier
+Plugin 'altercation/vim-colors-solarized'             " Solarized colorscheme
 
 
 " All of your Plugins must be added before the following line
@@ -95,17 +96,8 @@ if &t_Co > 2 || has("gui_running")
 endif
 
 " Set color scheme
-let g:jellybeans_overrides = {
-            \ 'Normal': { '256ctermbg': 232 },
-            \ 'MatchParen': { '256ctermfg': 162, '256ctermbg': 234, 'attr': 'bold' },
-            \ 'Folded': { '256ctermbg': 232 },
-            \ 'ColorColumn': { '256ctermbg': 234 },
-            \ 'Structure': { '256ctermfg': 111 },
-            \ 'DiffChange': { '256ctermbg': 233 },
-            \ 'DiffText': { '256ctermfg': 232, '256ctermbg': 32 },
-            \ 'Search': { '256ctermfg': 196, 'attr': 'bold' },
-\}
-colorscheme jellybeans
+set background=dark
+colorscheme solarized
 
 " Search highlight shortcut
 nnoremap <silent> <Leader>hh :set hlsearch! hlsearch?<CR> " Toggle highlighting
