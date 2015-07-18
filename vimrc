@@ -30,7 +30,7 @@ Plugin 'scrooloose/nerdcommenter'                     " Make comment/uncomment e
 Plugin 'indentpython.vim'                             " Better Python indentation
 Plugin 'hdima/python-syntax'                          " Better Python syntax highlighting
 Plugin 'luochen1990/rainbow'                          " Rainbow parenthesis
-Plugin 'msanders/snipmate.vim'                        " Snippets
+Plugin 'mrrech/snipmate.vim'                          " Snippets
 Plugin 'ervandew/supertab'                            " SuperTab
 Plugin 'scrooloose/syntastic'                         " Syntax checking
 Plugin 'tpope/vim-capslock'                           " Capslock without capslock key
