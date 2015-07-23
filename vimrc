@@ -248,6 +248,10 @@ nnoremap <silent> <Leader>ww <C-w>w
 
 nnoremap <silent> <Leader>w= <C-w>=
 nnoremap <silent> <Leader>w_ <C-w>_
+nnoremap <silent> <Leader>w- <C-w>-
+nnoremap <silent> <Leader>w+ <C-w>+
+nnoremap <silent> <Leader>w< <C-w><
+nnoremap <silent> <Leader>w> <C-w>>
 nnoremap <silent> <Leader>ws <C-w>s
 nnoremap <silent> <Leader>wv <C-w>v
 nnoremap <silent> <Leader>wo <C-w>o
