@@ -37,6 +37,8 @@ Plugin 'tpope/vim-capslock'                           " Capslock without capsloc
 Plugin 'milkypostman/vim-togglelist'                  " Open/close quicklist/locallist
 Plugin 'tpope/vim-surround'                           " Make changing surround chars easier
 Plugin 'altercation/vim-colors-solarized'             " Solarized colorscheme
+Plugin 'tpope/vim-dispatch'                           " Async task for vim
+Plugin 'janko-m/vim-test'                             " Run tests from inside vim
 
 
 " All of your Plugins must be added before the following line
@@ -353,6 +355,14 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_python_checkers = ['pyflakes']
 "let g:syntastic_debug = 3 " Enable debugging mode
 set statusline+=\ %{SyntasticStatuslineFlag()} " Append Syntastic status
+
+" Vim-test settings
+let test#strategy = 'dispatch'
+let test#python#nose#options = '-s --no-color'
+nmap <silent> <leader>tn :TestNearest<CR>
+nmap <silent> <leader>tf :TestFile<CR>
+nmap <silent> <leader>tl :TestLast<CR>
+nmap <silent> <leader>tv :TestVisit<CR>
 
 " Session settings
 set sessionoptions=buffers,curdir,folds
