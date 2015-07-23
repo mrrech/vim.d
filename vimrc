@@ -108,6 +108,8 @@ let g:solarized_contrast="normal"
 let g:solarized_visibility="normal"
 let g:solarized_diffmode="normal"
 let g:solarized_hitrail=0
+" set search highlight color to purple (not inverse)
+hi Search cterm=NONE ctermfg=5
 
 " Search highlight shortcut
 nnoremap <silent> <Leader>hh :set hlsearch! hlsearch?<CR> " Toggle highlighting
