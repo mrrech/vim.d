@@ -28,7 +28,7 @@ Plugin 'nanotech/jellybeans.vim'                      " Jellybeans color scheme
 Plugin 'jpythonfold.vim'                              " Better folding for Python
 Plugin 'scrooloose/nerdcommenter'                     " Make comment/uncomment easy
 Plugin 'indentpython.vim'                             " Better Python indentation
-Plugin 'hdima/python-syntax'                          " Better Python syntax highlighting
+Plugin 'mrrech/python-syntax'                         " Better Python syntax highlighting
 Plugin 'luochen1990/rainbow'                          " Rainbow parenthesis
 Plugin 'msanders/snipmate.vim'                        " Snippets
 Plugin 'ervandew/supertab'                            " SuperTab
