@@ -25,9 +25,9 @@ Plugin 'rizzatti/dash.vim'                            " Dash - Vim integration
 Plugin 'jmcantrell/vim-diffchanges'                   " Shows changes since the last save
 Plugin 'pangloss/vim-javascript'                      " Better Javascript syntax and indent
 Plugin 'nanotech/jellybeans.vim'                      " Jellybeans color scheme
-Plugin 'jpythonfold.vim'                              " Better folding for Python
+Plugin 'mbertheau/jpythonfold.vim'                    " Better folding for Python
 Plugin 'scrooloose/nerdcommenter'                     " Make comment/uncomment easy
-Plugin 'indentpython.vim'                             " Better Python indentation
+Plugin 'vim-scripts/indentpython.vim'                 " Better Python indentation
 Plugin 'mrrech/python-syntax'                         " Better Python syntax highlighting
 Plugin 'luochen1990/rainbow'                          " Rainbow parenthesis
 Plugin 'mrrech/snipmate.vim'                          " Snippets
