@@ -24,7 +24,6 @@ Plugin 'kien/ctrlp.vim'                               " Ctrl-p fuzzy matcher
 Plugin 'rizzatti/dash.vim'                            " Dash - Vim integration
 Plugin 'jmcantrell/vim-diffchanges'                   " Shows changes since the last save
 Plugin 'pangloss/vim-javascript'                      " Better Javascript syntax and indent
-Plugin 'nanotech/jellybeans.vim'                      " Jellybeans color scheme
 Plugin 'mbertheau/jpythonfold.vim'                    " Better folding for Python
 Plugin 'scrooloose/nerdcommenter'                     " Make comment/uncomment easy
 Plugin 'vim-scripts/indentpython.vim'                 " Better Python indentation
@@ -338,7 +337,7 @@ nnoremap <leader>at :AgFileType! <cword> -w <CR>
 
 " Rainbow settings
 let g:rainbow_active = 1
-"let g:rainbow_ctermfgs = [196, 'blue', 'magenta', 'cyan', 'green'] "parens custom colors
+hi MatchParen ctermbg=0
 
 " Python Enhanced Syntax Highlighting
 let python_version_2 = 1
